@@ -1,5 +1,6 @@
 <div class="container">
   <h4 class="margin-10">Assessments Overview</h4>
+  <!-- Total Assessment Details -->
   <div class="assessment-tab">
     <div class="tab-item padding-15 width-15">
       <h5>Total Assessment</h5>
@@ -63,14 +64,18 @@
       </div>
     </div>
   </div>
-
+  <!-- My Assessment Details -->
   <h4 class="margin-10">My Assessment</h4>
   <div class="card-container">
+    <!-- Add New Card -->
     <div class="card new-card">
       <mat-icon class="mat-icon" svgIcon="add_new_icon" (click)="openNewAssessment()"></mat-icon>
       <h4 class="margin-10">New Assessment</h4>
       <h6>From here you can add questions of multiple types like MCQs, subjective (text or paragraph)!</h6>
     </div>
+    <!-- Add New Card End-->
+
+    <!-- Card Details -->
     <div class="card">
       <div class="divider">
         <div class="space-between">
@@ -133,5 +138,6 @@
         </div>
       </div>
     </div>
+    <!-- Card Details End-->
   </div>
 </div>
