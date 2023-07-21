@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+  .item {
+    padding: 12px 0px;
+    width: 75%;
+    margin-left: 15px;
+  }
+}
+
+mat-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.dashed-border {
+  border-bottom: 1px dashed #dadce0;
+}
+
+.admin {
+  color: #d63500;
+  border: 1px solid #d63500;
+  background-color: #fbebea;
+  padding: 6px 8px 6px 8px;
+  border-radius: 22px;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 15px;
+  width: 60%;
+  margin-left: 15px;
+}
+
+.active {
+  color: #0073e6;
+  border-radius: 12px;
+  border: 2px solid #0073e6;
+}

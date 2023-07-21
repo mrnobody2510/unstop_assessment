@@ -1,0 +1,61 @@
+.heading {
+  line-height: unset;
+  border: unset;
+  padding-left: 10px;
+}
+
+.mat-icon {
+  height: 15px;
+  width: 13px;
+  margin: 8px;
+}
+
+mat-dialog-actions {
+  padding: 0px;
+  line-height: -46px;
+  align-items: unset;
+}
+
+.header {
+  height: 30px;
+  padding: 10px;
+  border-bottom: 1px solid #dadce0;
+}
+
+mat-form-field {
+  display: block;
+  .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+}
+
+.margin-80 {
+  margin-bottom: 80px;
+}
+
+mat-dialog-content {
+  padding: 20px 30px;
+  max-height: 85vh;
+}
+
+h5 {
+  color: #1c4980;
+}
+
+.multi-select-icon {
+  height: 14px;
+  width: 13px;
+  margin: auto;
+}
+
+.border {
+  border-top: 2px solid #dadce0;
+}
+
+button {
+  width: 100%;
+  background-color: #0073e6 !important;
+  color: #ffffff !important;
+}

@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  display: flex;
+  .content {
+    background-color: #dde5ea;
+    width: 90%;
+    padding: 0px 10px;
+    .header {
+      border-bottom: 1px solid #dde5ea;
+    }
+  }
+
+  .sidebar {
+    background-color: #ffff;
+    width: 10%;
+    height: 590px;
+    top: 2px;
+    gap: 10px;
+  }
+
+  .overview {
+    background-color: #ffffff;
+    border-radius: 0px 0px 12px 12px;
+    height: 550px;
+  }
+}

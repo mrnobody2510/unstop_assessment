@@ -1,0 +1,28 @@
+.header {
+  height: 50px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 12px 12px 0px 0px;
+  gap: 24px;
+  display: flex;
+  background-color: #ffff;
+}
+
+.icon {
+  position: absolute;
+  right: 5px;
+  height: 35px;
+  margin: 8px;
+  width: 35px;
+}
+
+.vertical-divider {
+  color: #dadce0;
+  line-height: 45px;
+}
+
+.mat-tab {
+  color: #0073e6;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 50px;
+}

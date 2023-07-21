@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="space-between header">
+    <div class="heading">Add New Assessment</div>
+    <mat-dialog-actions>
+      <mat-icon mat-button mat-dialog-close class="mat-icon" svgIcon="cancel_icon"></mat-icon>
+    </mat-dialog-actions>
+  </div>
+  <mat-dialog-content>
+    <form [formGroup]="newAssessmentForm" class="content">
+      <h5>
+        Name of assessment
+      </h5>
+      <mat-form-field appearance="outline">
+        <input type="text" matInput placeholder="Type Here" formControlName="assessmentName">
+      </mat-form-field>
+
+      <h5>
+        Purpose of the test is
+      </h5>
+      <mat-form-field appearance="outline">
+        <mat-select formControlName="purposeOfTest" placeholder="Select">
+        </mat-select>
+      </mat-form-field>
+
+      <h5>
+        Description
+      </h5>
+      <mat-form-field appearance="outline">
+        <mat-select formControlName="description" placeholder="Select">
+        </mat-select>
+      </mat-form-field>
+
+      <div class="margin-80">
+        <h5>Skills</h5>
+        <mat-form-field>
+          <mat-chip-grid #chipGrid aria-label="Enter keywords" formControlName="skills">
+            <mat-chip-row *ngFor="let keyword of skills">
+              {{keyword}}
+              <mat-icon class="multi-select-icon" svgIcon="cancel_icon"></mat-icon>
+            </mat-chip-row>
+          </mat-chip-grid>
+          <div class="border">
+            <input placeholder="Type Here" [matChipInputFor]="chipGrid" />
+          </div>
+        </mat-form-field>
+      </div>
+
+      <div>
+        <h5>
+          Duration of assessment
+        </h5>
+        <mat-form-field appearance="outline">
+          <input type="text" placeholder="HH:MM:SS" matInput formControlName="duration">
+        </mat-form-field>
+      </div>
+    </form>
+    <button class="button" id="submit" mat-raised-button>Save</button>
+  </mat-dialog-content>
+</div>

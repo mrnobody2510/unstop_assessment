@@ -1,0 +1,54 @@
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  height: 100%;
+  margin: 0px;
+  color: #1c4980;
+  font-family: system-ui;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  margin: unset;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  margin: unset;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mdc-dialog {
+  position: fixed !important;
+  width: 570px !important;
+  max-height: 650px !important;
+  margin: 10px 400px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 50px;
+  border-right: 1px solid #dadce0;
+  padding-right: 15px;
+}
+
+.mat-mdc-dialog-container .mdc-dialog__surface {
+  border-radius: 12px !important;
+}
+
+mat-form-field {
+  height: 65px;
+}
